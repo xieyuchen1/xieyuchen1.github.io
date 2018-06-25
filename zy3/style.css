@@ -1,0 +1,103 @@
+header{
+    background:#333333;height: 50px;color: aliceblue;
+}
+header p{
+    display:inline-block;width: 50%;padding-left:20%;float:left;font-weight: 100px
+}
+header ul li{
+    display:inline-block;float:left;margin: 5px; text-decoration: underline;
+}
+section{
+    background: #66bb33;height:200px;
+}
+.center{
+    width: 70%;margin:0 auto;
+}
+.right{
+    float:right;
+}
+.number {
+    margin-top: 160px;
+    margin-right: 2px;
+    display: inline-block;
+    background-color: #e0f1d6;
+    border: 1px solid black;
+    padding-right: 5px;
+    padding-left: 5px;
+    opacity: 0.4;
+}
+nav {
+    border-bottom: 2px solid #ebebeb;
+    height: 60px;
+    position: relative;
+}
+nav ul{
+    list-style: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: absolute;
+    bottom: -2px;
+}
+nav ul li:nth-of-type(1) {
+    border-top: 2px solid #ebebeb;
+    border-right: 2px solid #ebebeb;
+    border-left: 2px solid #ebebeb;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 10px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    float: left;
+}
+nav ul li:nth-of-type(2) {
+    border-top: 2px solid #ebebeb;
+    border-right: 2px solid #ebebeb;
+    border-left: 2px solid #ebebeb;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 10px;
+    background-color: #eeeeee;
+    display: inline-block;
+    float: left;
+}
+nav ul li:nth-of-type(3){
+    border-top: 2px solid #ebebeb;
+    border-right: 2px solid #ebebeb;
+    border-left: 2px solid #ebebeb;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 10px;
+    background-color: #eeeeee;
+        display: inline-block;
+    float: left;
+}
+.now {
+    margin-top: 150px;
+    margin-right: 2px;
+    padding-top: 10px;
+    display: inline-block;
+    background-color: #e0f1d6;
+    border: 1px solid black;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+article {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+article p {
+    border: 2px solid #ebebeb;
+    margin: 5px;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    padding-top: 60px;
+}
+footer{
+    background:#5c5c5c;height:80px;text-align: center;padding-top: 8px;color: aliceblue;
+}
+body {
+    margin: 0 auto;
+}
