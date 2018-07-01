@@ -1,0 +1,76 @@
+
+nav{
+    margin-left:auto;
+    margin-right:auto;
+    margin: 0 auto;
+    width: 83%;
+}
+body{
+    text-align:center;
+	margin-left:auto;
+    margin-right:auto;
+    background-image: url(../images/bj.png);
+}
+h1{
+    float: center;
+    text-align: center;
+    height: 200px;
+}
+.container-fulid{
+    height: 800px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:100px;
+    background-color:white;
+}
+section{
+    background-color:white;
+    margin-left:auto;
+    margin-right:auto;
+    margin: 0 auto;
+    width: 83%;
+}
+
+#mao{
+    padding-top:100px; 
+}
+.zuopin{
+    display: inline-block;
+    margin: 20px;
+}
+#grzp{
+    padding: 150px;
+    
+
+}
+.gyw{
+    height: 700px;
+}
+.aw{
+    height: 50px;
+    padding-top:40px;
+}
+.carousel-inner{
+    margin-left:auto;
+    margin-right:auto;
+    margin: 0 auto;
+    width: 83%;
+}
+
+form{
+    padding: 10px;
+    border: 1px solid rgb(212, 212, 212);
+    margin: 0 auto;
+    width: 75%;
+}
+footer{
+    height: 150px;
+    margin: 0 auto;
+    width: 83%;
+    background-color: rgb(165, 165, 165);
+}
+footer p{
+    color: aliceblue;
+    height: 150px;
+    padding-top: 70px;
+}
